@@ -1,1 +1,3 @@
-name: TEST
+issues:
+  ignored-users:
+    - matt-riley
