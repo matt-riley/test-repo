@@ -2,5 +2,5 @@ type Test {
   id: ID
   name: String
   age: Int
-  score: String
+  score: Int
 }
