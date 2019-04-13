@@ -4,3 +4,7 @@ type Test {
   age: Int
   score: Int
 }
+
+type Matt {
+  foo: String
+}
