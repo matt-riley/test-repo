@@ -8,3 +8,9 @@ type Test {
 type Matt {
   foo: String
 }
+
+type Name {
+  forename: String
+  surname: String
+  initials: String
+}
