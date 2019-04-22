@@ -1,6 +1,6 @@
 type Test {
+  id: ID
   name: Name
-  age: Int
   score: String
 }
 
