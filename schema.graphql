@@ -1,5 +1,9 @@
-type Test {
-  id: ID
-  name: String
-  age: String
+type Matt {
+  foo: String
+}
+
+type Name {
+  forename: String
+  surname: String
+  initials: String
 }
