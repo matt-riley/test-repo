@@ -1,5 +1,5 @@
 type Name {
-  forename: String
+  forename: Int
   surname: String
   initials: String
 }
