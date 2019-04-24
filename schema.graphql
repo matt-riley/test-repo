@@ -1,7 +1,7 @@
 type Name {
   forename: String
   surname: String
-  initials: String
+  initials: Int
 }
 
 type What {
