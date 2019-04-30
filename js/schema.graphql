@@ -6,5 +6,5 @@ type DJYoda {
 }
 
 type DJUndercover @deprecated(reason: "Foo") {
-  badAlternativeName: Boolean
+  badAlternativeName: String
 }
