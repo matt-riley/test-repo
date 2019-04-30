@@ -4,3 +4,7 @@ type DJYoda {
   ): String
   visual: Boolean
 }
+
+type DJUndercover @deprecated(reason: "Foo") {
+  badAlternativeName: Boolean
+}
