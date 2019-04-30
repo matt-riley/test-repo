@@ -5,6 +5,10 @@ type DJYoda {
   visual: Boolean
 }
 
+type DJSupreme {
+  discog(title: String): [String]
+}
+
 type DJUndercover @deprecated(reason: "Foo") {
   badAlternativeName: String
 }
