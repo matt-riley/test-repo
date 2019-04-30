@@ -9,6 +9,6 @@ type DJSupreme {
   discog(title: String = "Horns of Jericho"): [String]
 }
 
-type DJUndercover @deprecated(reason: "Foo") {
+type DJUndercover {
   badAlternativeName: String
 }
