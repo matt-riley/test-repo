@@ -2,3 +2,7 @@ type DJYoda {
   audio(awesome: Boolean!): Boolean
   visual: Boolean
 }
+
+type DJUndercover @deprecated(reason: "Foo") {
+  badAlternativeName: Boolean
+}
