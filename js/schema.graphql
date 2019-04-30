@@ -10,5 +10,5 @@ type DJSupreme {
 }
 
 type DJUndercover {
-  badAlternativeName: String
+  badAlternativeName: Boolean
 }
