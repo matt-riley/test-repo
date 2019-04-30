@@ -1,6 +1,6 @@
 type DJYoda {
   audio(
-    awesome: Boolean @deprecated(reason: "WAT")
+    awesome: String @deprecated(reason: "WAT")
   ): String
   visual: Boolean
 }
