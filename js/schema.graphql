@@ -4,7 +4,7 @@ type DJYoda {
 }
 
 type DJSupreme {
-  discog(title: String): [String]
+  discog(title: String = "Madvillain"): [String]
 }
 
 type DJUndercover @deprecated(reason: "Foo") {
