@@ -4,7 +4,7 @@ type Name {
   initials: String
 }
 
-type What {
+type What1 {
   something: Int
   else: String
 }
