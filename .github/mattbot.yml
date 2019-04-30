@@ -7,3 +7,5 @@ schemaCheck:
       mainBranch: master
     - path: js/schema.graphql
       mainBranch: master
+  rules:
+    - FIELD_CHANGED_KIND
