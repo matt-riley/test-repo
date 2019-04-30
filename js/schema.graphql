@@ -1,0 +1,4 @@
+type DJYoda {
+  audio: Boolean
+  visual: Boolean
+}
