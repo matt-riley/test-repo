@@ -7,5 +7,4 @@ type Name {
 type What1 {
   something: Int
   else: String
-  test: Elephant
 }
