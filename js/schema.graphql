@@ -1,7 +1,5 @@
 type DJYoda {
-  audio(
-    awesome: String
-  ): Boolean
+  audio: Boolean
   visual: Boolean
 }
 
