@@ -1,10 +1,10 @@
 type Name {
-  forename: Int
+  forename: String
   surname: String
   initials: String
 }
 
-type What1 {
+type What {
   something: Int
   else: String
 }
