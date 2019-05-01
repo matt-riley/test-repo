@@ -1,6 +1,6 @@
 type DJYoda {
   audio: Boolean
-  visual: Boolean
+  visual: String
 }
 
 type DJSupreme {
