@@ -5,6 +5,6 @@ type Name {
 }
 
 type What {
-  something: Int
+  something: String
   else: String
 }
