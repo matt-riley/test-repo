@@ -6,7 +6,7 @@ type DJYoda {
 }
 
 type DJSupreme {
-  discog: [String]
+  discog(title: String = "Madvillain"): [String]
 }
 
 type DJUndercover {
