@@ -5,8 +5,6 @@ schemaCheck:
   paths:
     - path: schema.graphql
       mainBranch: master
-    - path: js/schema.graphql
-      mainBranch: master
   rules:
     - FIELD_CHANGED_KIND
     - FIELD_REMOVED
