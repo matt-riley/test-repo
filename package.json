@@ -1,0 +1,20 @@
+{
+  "name": "test-repo",
+  "version": "0.0.0",
+  "description": "😄 😂 :trollface:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-riley/test-repo.git"
+  },
+  "keywords": [],
+  "author": "Matt Riley <matt@mattriley.me> (https://mattriley.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-riley/test-repo/issues"
+  },
+  "homepage": "https://github.com/matt-riley/test-repo#readme"
+}
