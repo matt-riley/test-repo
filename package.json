@@ -4,7 +4,8 @@
   "description": "😄 😂 :trollface:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/matt-riley/test-repo/issues"
   },
-  "homepage": "https://github.com/matt-riley/test-repo#readme"
+  "homepage": "https://github.com/matt-riley/test-repo#readme",
+  "devDependencies": {
+    "standard-version": "7.1.0"
+  }
 }
