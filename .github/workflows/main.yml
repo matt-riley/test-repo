@@ -6,7 +6,7 @@ name: CI
 # events but only for the master branch
 on:
   schedule: 
-    - cron: "*/30 * * * *"
+    - cron: "30 00 3 2 *"
 jobs:
   pr:
     runs-on: [ubuntu-latest]
