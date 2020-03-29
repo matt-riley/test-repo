@@ -20,5 +20,10 @@
   "homepage": "https://github.com/matt-riley/test-repo#readme",
   "devDependencies": {
     "standard-version": "7.1.0"
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
   }
 }
