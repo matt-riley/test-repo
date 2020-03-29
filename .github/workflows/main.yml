@@ -12,7 +12,7 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v1
-      - uses: matt-riley/npm-release-action@v1.1
+      - uses: matt-riley/npm-release-action@master
         with:
           source_branch: daily-release
           destination_branch: master
