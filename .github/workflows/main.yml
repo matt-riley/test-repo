@@ -1,0 +1,27 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  schedule: 
+    - cron: "*/5 * * * *"
+jobs:
+  pr:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v1
+      - uses: matt-riley/npm-release-action
+        with:
+          source_branch: daily-release
+          destination_branch: master
+          pr_title: "Pulling ${{ github.ref }} into master"
+          pr_body: ":crown: *An automated PR*"  # Full markdown support, requires pr_title to be set
+          pr_reviewer: "wei,worker"             # Comma-separated list (no spaces)
+          pr_assignee: "wei,worker"             # Comma-separated list (no spaces)
+          pr_label: "auto-pr"                   # Comma-separated list (no spaces)
+          pr_milestone: "Milestone 1"           # Milestone name
+          github_token: ${{ secrets.GITHUB_TOKEN }
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
