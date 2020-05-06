@@ -9,7 +9,7 @@ on:
     - cron: "*/30 * * * *"
 jobs:
   pr:
-    runs-on: [ubuntu-latest]
+    runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v1
       - uses: matt-riley/npm-release-action@master
